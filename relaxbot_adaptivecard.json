@@ -1,0 +1,52 @@
+{
+   "type":"message",
+   "attachments":[
+      {
+         "contentType":"application/vnd.microsoft.card.adaptive",
+         "contentUrl":null,
+         "content":{
+            "$schema":"http://adaptivecards.io/schemas/adaptive-card.json",
+            "type":"AdaptiveCard",
+            "version":"1.2",
+            "body":[
+        {
+            "type": "ColumnSet",
+            "horizontalAlignment": "Left",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "horizontalAlignment": "Center",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "\uD83E\uDD16 **P&I Relax Bot**",
+                                            "wrap": true,
+                                            "size": "Large"
+                                        }
+                                    ],
+                                    "width": "auto"
+                                }
+                            ]
+                        }
+                    ],
+                    "width": "auto",
+                    "horizontalAlignment": "Left"
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "wrap": true,
+            "size": "Medium"
+        }
+    ]
+         }
+      }
+   ]
+}
