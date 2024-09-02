@@ -30,13 +30,8 @@ class BoredAPI:
 class TeamsWebhookAPI:
     personal_access_token = None
     header = {'Content-Type': 'application/json'}
-    real_endpoint_url = ('https://prod-14.australiasoutheast.logic.azure.com:443/workflows'
-                         '/beac23393d494ec99573e7221c69b422'
-                         '/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig'
-                         '=ypPqNZk4kUPN5dMLChnhc9sG9dd4YCUsyknzMKBLnxg')  #real
-    endpoint_url = ('https://prod-15.australiasoutheast.logic.azure.com:443/workflows'
-                    '/edb9b3f5aa2a4378b9a7c0558a9b5773/triggers/manual/paths/invoke?api-version=2016-06-01&sp'
-                    '=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=Pzx9j1cLkFPmKIbIkepYvuQPN1cEU4NeNrQGnUsQILI')  #testing
+    real_endpoint_url = ('')  #real
+    endpoint_url = ('')  #testing
 
     def __init__(self):
         pass
@@ -65,7 +60,7 @@ quotes = f"{activity}"
 print(quotes)
 
 # Get JSON data
-json_data = open(r'C:\Users\axg067_dev\PycharmProjects\quotesOfTheDay\relaxbot_adaptivecard.json', 'r',
+json_data = open(r'relaxbot_adaptivecard.json', 'r',
                  encoding='utf-8')
 data = json.load(json_data)
 data["attachments"][0]["content"]["body"][0]["columns"][0]["items"][0]["columns"][0]["items"][0][
