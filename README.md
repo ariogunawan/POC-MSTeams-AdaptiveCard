@@ -47,7 +47,7 @@ To get started with the **POC Relax Bot**, follow these steps:
 
 To run the bot, use the following command:
 ```bash
-python app.py
+python poc_relax_bot.py
 ```
 
 ## Configuration
