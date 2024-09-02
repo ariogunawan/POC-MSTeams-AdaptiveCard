@@ -1,3 +1,6 @@
+## IMPORTANT NOTE
+This repository is intended for my personal notes and portfolio purposes on LinkedIn. I do not expect any contributions from others. Thank you for understanding!
+
 # POC Relax Bot
 
 Welcome to the **POC Relax Bot** repository! This project is a Proof of Concept (POC) for testing Python REST APIs with Microsoft Teams Adaptive Cards.
@@ -57,14 +60,9 @@ Before running the bot, make sure to configure the following settings:
 - **Microsoft Teams Bot Framework**: Register your bot with the Microsoft Bot Framework and obtain the necessary credentials.
 - **API Endpoints**: Update the API endpoints in the configuration file to point to your REST APIs.
 
-## Contributing
-
-We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) for more details.
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
----
-
-Feel free to modify this template to better fit your project's specifics. If you need any more details or adjustments, just let me know!
+## IMPORTANT NOTE
+This repository is intended for my personal notes and portfolio purposes on LinkedIn. I do not expect any contributions from others. Thank you for understanding!
