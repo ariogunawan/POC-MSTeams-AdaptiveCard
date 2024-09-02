@@ -31,8 +31,8 @@ To get started with the **POC Relax Bot**, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/ariogunawan/POC_MSTeams_AdaptiveCard.git
-    cd POC_MSTeams_AdaptiveCard
+    git clone https://github.com/ariogunawan/POC-MSTeams-AdaptiveCard.git
+    cd POC-MSTeams-AdaptiveCard
     ```
 
 2. **Create a virtual environment**:
